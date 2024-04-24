@@ -14,13 +14,17 @@ Here is the list of libraries used in this project:
 
 2. Data process
 - detection
+
 a. crop and rotate images 
 `bash sources/preprocess/crop.sh`
+
 b. convert gt.json to yolo.txt, codetr.json and InternImage.json
 `bash sources/preprocess/convet.sh`
 - classify vehicles
+
 a.get positive samples to train the network for classifying vehicles. 
 `python sources/preprocess/crop_cars.py`
+
 b.get negative samples to train the network for classifying vehicles. 
 `python sources/preprocess/get_negative.py`
 
