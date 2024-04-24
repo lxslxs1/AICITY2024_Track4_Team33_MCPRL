@@ -1,5 +1,4 @@
 # AICITY2024_Track4_Team33_MCPRL
-
 The solutions ranked sixth in Track 4 (Road Object Detection in Fish-Eye Cameras) of the NVIDIA [AI City Challenge](https://www.aicitychallenge.org/) at the CVPR 2024 Workshop.
 
 ## Installation
