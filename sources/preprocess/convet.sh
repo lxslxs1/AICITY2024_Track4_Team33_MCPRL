@@ -1,0 +1,2 @@
+python yolo_to_codetr.py
+python yolo_to_intern.py

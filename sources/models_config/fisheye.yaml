@@ -1,0 +1,8 @@
+train: /home/sedlight/lxs/AICITY/yolov9-main/Fisheye8k/train/train.txt  # 118287 images
+val: /home/sedlight/lxs/AICITY/yolov9-main/Fisheye8k/val/val.txt # 5000 images
+test: /home/sedlight/lxs/AICITY/yolov9-main/Fisheye8k/val/val.txt
+# number of classes
+nc: 3
+
+# class names
+names: ['Bus','Car','Truck']
