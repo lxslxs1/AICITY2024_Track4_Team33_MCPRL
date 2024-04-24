@@ -74,5 +74,5 @@ Config: `sources/models_config/YOLOv8s-cls.yaml`
 
 - WBF
 
-Put `fuse_results.py` into `mmdetection-2.28.1/tools/analysis_tools/`  and then
+  Put `fuse_results.py` into `mmdetection-2.28.1/tools/analysis_tools/`  and then
 `bash sources/postprocess/fuse.sh`
