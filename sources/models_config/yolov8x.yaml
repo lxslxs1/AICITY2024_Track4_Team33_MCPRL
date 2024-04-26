@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: runs/detect/base6/weights/last.pt
-data: /home/sy/lxs/AICITY/yolov8/ultralytics/cfg/datasets/coco.yaml
+data: /home/sy/lxs/AICITY/yolov8/ultralytics/cfg/datasets/fisheye.yaml
 epochs: 300
 time: null
 patience: 50
