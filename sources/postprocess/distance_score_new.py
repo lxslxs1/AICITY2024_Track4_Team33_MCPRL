@@ -43,7 +43,6 @@ def calculate_histogram(scores, bins=10):
     return hist
 
 def match_histograms_old(src_scores, target_hist, src_hist):
-    # 简化的直方图匹配方法，真实使用时可能需要更复杂的逻辑
     # 这里使用OpenCV的normalize方法作为直方图匹配的一个简单代理
     src_cdf = np.cumsum(src_hist).astype(np.float32)
     src_cdf = src_cdf / src_cdf[-1]  # 归一化
@@ -153,8 +152,6 @@ counts_frequency_after = counts_after / counts_after.sum(axis=1, keepdims=True)
 
 
 plt.style.use('seaborn-paper')
-
-# 计算频率的代码在这里省略，请使用上面优化后的代码进行计算
 
 # 创建图和子图
 fig, axes = plt.subplots(1, 2, figsize=(8, 6), sharey=True)
