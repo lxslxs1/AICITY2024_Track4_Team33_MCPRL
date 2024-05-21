@@ -56,6 +56,8 @@ Here is the list of libraries used in this project:
   sources/models_config/fisheye.yaml
   sources/models_config/yolov8x.yaml
   ```
+
+  Download all pre-trained models in [here](https://drive.google.com/drive/folders/1anaeCE6ocRB2ZlijH0KcWXRmNkXu_4Q1?usp=drive_link)
 4. Post_Process
 
 - Vehicles Classifier Module
